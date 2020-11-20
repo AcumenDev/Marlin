@@ -629,7 +629,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 1000, 1000, 100, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 1000, 1000, 50, 10000 }
 
 /**
  * Default Acceleration (change/s) change = mm/s
@@ -653,8 +653,8 @@
  */
 #define DEFAULT_XJERK                 15.0
 #define DEFAULT_YJERK                 15.0
-#define DEFAULT_ZJERK                  0.5
-#define DEFAULT_EJERK                  7.0
+#define DEFAULT_ZJERK                  0.4
+#define DEFAULT_EJERK                  5.0
 
 /**
  * S-Curve Acceleration
